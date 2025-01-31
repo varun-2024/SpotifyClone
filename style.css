@@ -1,0 +1,85 @@
+body{   
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    
+}
+
+.sidebar{
+    background-color: black;
+    width: 30vw;
+    border-radius: 1rem;
+}
+
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 7vh;
+    
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    height: 30vh;
+    padding: 0.5rem 0.75rem;
+
+}
+.nav-option{
+    line-height: 2.5rem;
+    padding: .75rem;
+    opacity: .7;
+  
+}
+
+.nav-option:first-child{
+    opacity: 1;
+  
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+    padding: .5rem
+}
+.nav-option a{
+    font-size: 1rem;
+    padding: .5rem
+}
+
+.nav-option:hover{
+    opacity: 1;
+    font: white;
+}
+
+
+.library{
+    background-color: #121212;
+}
