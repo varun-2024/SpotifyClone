@@ -49,8 +49,10 @@ a{
     display: flex;
     flex-direction: column ;
     justify-content: center;
+    align-items: center;
     height: 30vh;
     padding: 0.5rem 0.75rem;
+    margin-top: .5rem;
 
 }
 .nav-option{
@@ -65,6 +67,11 @@ a{
   
 }
 
+.nav-option:hover{
+    opacity: 1;
+    font: white;
+}
+
 .nav-option i{
     font-size: 1.25rem;
     padding: .5rem
@@ -74,12 +81,47 @@ a{
     padding: .5rem
 }
 
-.nav-option:hover{
-    opacity: 1;
-    font: white;
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: .5rem; 
+    padding: .5rem .75rem;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     
+}
+
+.lib-options{
+    opacity: .7;
+    color: white;
 }
 
 
-.library{
-    background-color: #121212;
+
+.lib-options img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+   margin: .5rem;
+   /* opacity: .5; */
+   color: grey;
+   display: flex;
+   gap: 2rem;
+   padding: .5rem;
+}
+
+.lib-options:hover{
+    opacity: 1;
+}
+
+.fa-solid:hover{
+    opacity: 1;
+    color: white;
 }
